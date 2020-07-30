@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Platzi CMS</title>
+    <link rel="icon" type="image/png" href=".vscode/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Portafolio/normalize.css">
+    <link rel="stylesheet" href="Portafolio/estilos.css">
+    <link rel="stylesheet" href="Portafolio/mobile.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <figure class="logo">
+        <img src="images/logo-frontend.png"  alt="logo de http://charlyknows.com"/> 
+      </figure>
+      <nav class="menu">
+        <ol>
+          <li>
+             <a class="link" href="#Portafolio">Portafolio</a> 
+          </li>
+          <li>
+              <a class="link" href="#eventos">Experiencia</a> 
+           </li>
+           <li>
+              <a class="link"  href="#contacto">Trabajemos juntos</a> 
+           </li>
+        </ol>
+      </nav>         
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="container">
+      <h1>
+        Hola! Soy <strong>Carlos Manuel Sosa</strong>,<br> Desarrollador <strong>Frontend</strong> con <br> pasión por el <strong> aprendizaje</strong>
+      </h1>
+      <img class="hero-image" src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio">  
+    </div>
+  </section> 
+  
+  
+  <section id="Portafolio" class="portfolio">
+    <div class="container">
+      <h2>Portafolio (Proyectos Destacados)</h2>  
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">Arquitectura Frontend</h3>
+          <h5 class="project-course">Las bases: HTML, CSS y Javascript</h5>
+          <p class="project-date"><small><strong>Fecha:</strong> 8/07/2020</small></p>  
+          <p class="project-url"><small><strong>Puedes verlo en:</strong><a class="link" href="https://platzi.com/arquitecto/" target="_blank">https://platzi.com/arquitecto</a></small></p>  
+          <p class="project-description">Parte de la labor de ser un desarrollador Frontend es aplicar diferentes técnicas y tecnologías para llevar a cabo una UI y UX deseados. Entre sus responsabilidades están hacer que los usuarios accedan fácilmente al contenido de un sitio web, elegir las etiquetas de HTML correctas para describir ese contenido y garantizar que el contenido va a tardar el mínimo tiempo posible en mostrarse. Además, en un entorno de trabajo ideal, un desarrollador Frontend analiza las maquetas de una página web realizadas por un diseñador gráfico y las interpreta en bloques de código y técnicas para lograr un producto similar al planeado.          </p>
+        </div>
+        <figure class="project-imageContainer">        
+          <img class="project-image" width="500" src="images/platzi-video-react-native.png" alt="proyecto del curso de react native">    
+        </figure>
+      </article>
+    </div>
+  </section>
+
+
+  <div class="container">
+    <h2 class="event-list-title">Más sobre mi experiencia</h2>  
+  </div>
+  <section id="eventos" class="event-list">
+    <div class="container">
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="images/frontend.jpg" width="500" height="300"/>  
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">Frontend Development en 2 minutos</h3>  
+          <p class="event-description">¿Cómo se convierten los datos en una interfaz gráfica para que el usuario la pueda observar y realizar interacciones?¿Qué tecnologías se utilizan para dicha tarea?.</p>
+          <a class="event-url" href="https://www.youtube.com/watch?v=qyHyFsT7Hig" target="_blank">Ver Video</a>
+        </div>
+      </article> 
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="images/frontend.jpg" width="500" height="300"/>  
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">Frontend Development en 2 minutos</h3>  
+          <p class="event-description">¿Cómo se convierten los datos en una interfaz gráfica para que el usuario la pueda observar y realizar interacciones?¿Qué tecnologías se utilizan para dicha tarea?.</p>
+          <a class="event-url" href="https://www.youtube.com/watch?v=qyHyFsT7Hig" target="_blank">Ver Video</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="images/frontend.jpg" width="500" height="300"/>  
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">Frontend Development en 2 minutos</h3>  
+          <p class="event-description">¿Cómo se convierten los datos en una interfaz gráfica para que el usuario la pueda observar y realizar interacciones?¿Qué tecnologías se utilizan para dicha tarea?.</p>
+          <a class="event-url" href="https://www.youtube.com/watch?v=qyHyFsT7Hig" target="_blank">Ver Video</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="images/frontend.jpg" width="500" height="300"/>  
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">Frontend Development en 2 minutos</h3>  
+          <p class="event-description">¿Cómo se convierten los datos en una interfaz gráfica para que el usuario la pueda observar y realizar interacciones?¿Qué tecnologías se utilizan para dicha tarea?.</p>
+          <a class="event-url" href="https://www.youtube.com/watch?v=qyHyFsT7Hig" target="_blank">Ver Video</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <div class="container">
+      <form action="/suscripcion/" class="form-email">
+        <h3>¿Creamos algo juntos?</h3>  
+        <label for="email"></label>
+        <input type="text" name="email" placeholder="ej@gmail.com">
+        <input type="submit" value="texto del botón">
+        <button>Enviar</button>  
+      </form>
+      <div class="social">
+        <a href="https://twitter.com" class="social-link twitter" target="_blank"></a>
+        <a href="https://facebook.com" class="social-link facebook" target="_blank"></a>
+        <a href="https://github.com/cms1995" class="social-link github" target="_blank"></a>
+        <a href="https://instagram.com" class="social-link instagram" target="_blank"></a>  
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <p>Curso de Desarrollo web online 2020 <img src="images/platzi.png" width="80" alt="platzi"></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
